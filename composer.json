@@ -1,0 +1,23 @@
+{
+    "name": "alexbarnsley/phpunit-token-placeholder",
+    "description": "Package used as placeholders for older versions of phpunit",
+    "type": "library",
+    "require": {
+        "php": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Barnsley",
+            "email": "alex@barnsley.io"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
